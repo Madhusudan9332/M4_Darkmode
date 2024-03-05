@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    text-align: center;
+}
+.toggleButton{
+    background-color: black;
+    height: 50px;
+    width: 105px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.button{
+    left: 5px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+.toggleButton img{
+    width: 50px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+    /* border-radius: 50%; */
+}
+
+h1{
+    margin-top: 150px;
+    font-size: 75px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
